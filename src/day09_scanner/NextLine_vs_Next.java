@@ -18,6 +18,7 @@ public class NextLine_vs_Next {
         System.out.println("age = " + age);
 
         System.out.println("full_name = " + full_name);
+        input.close();
 
     }
 }
