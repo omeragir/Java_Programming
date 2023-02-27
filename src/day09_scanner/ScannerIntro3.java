@@ -15,5 +15,6 @@ public class ScannerIntro3 {
        // String answer=input.nextLine();
         System.out.println("You have entered "+answer);
 
+
     }
 }
