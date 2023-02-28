@@ -10,6 +10,7 @@ public class EligibleOrNotEligibleScanner {
 
         int age = input.nextInt();
 
+
         if (age >= 21 && age <= 85) {
             System.out.println("Eligible");
         } else {
