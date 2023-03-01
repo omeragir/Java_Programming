@@ -23,6 +23,7 @@ public class PlaceAnOrderScanner {
         double total=price*quantity;
 
         System.out.println(firstName+", your order for "+quantity+" "+product+". Your total is : "+total+".");
+        input.close();
 
 
 
