@@ -7,10 +7,13 @@ public class ReallyNeverMind {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a word : ");
         String word = input.nextLine();
-        boolean isEndsWithLy=word.endsWith("ly");
-        if (isEndsWithLy){
+
+        input.close();
+
+        boolean isEndsWithLy = word.endsWith("ly");
+        if (isEndsWithLy) {
             System.out.println("really???");
-        }else {
+        } else {
             System.out.println("never mind");
         }
 
