@@ -34,10 +34,7 @@ public class CalculatorTip {
           System.out.println("Total per person : "+totalToPay/peopleNumber);
           System.out.println("Tip per person : "+totalTip/peopleNumber);
 
-      }else{
-          System.out.println("Your amount is : "+totalToPay);
       }
-
 
 
 
