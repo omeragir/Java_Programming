@@ -9,8 +9,9 @@ public class CustomMethodPractice {
         System.out.println("----------------------------------");
         maximumNumber(12, 12);
         System.out.println("----------------------------------");
-        initial("bond","james");
+        initial("bond", "james");
         System.out.println("----------------------------------");
+        grade(85);
 
     }
 
@@ -43,8 +44,27 @@ public class CustomMethodPractice {
     }
 
     public static void initial(String firstName, String lastName) {
-        System.out.println("" + firstName.toUpperCase().charAt(0) +"."+ lastName.toUpperCase().charAt(0));
+        System.out.println("" + firstName.toUpperCase().charAt(0) + "." + lastName.toUpperCase().charAt(0));
 
+    }
+
+    public static void grade(int note) {
+        if (note >= 0 && note <= 100) {
+            if (note > 90) {
+                System.out.println("Excellent");
+            } else if (note >= 70 && note < 90) {
+                System.out.println("Great");
+            } else if (note >= 60 && note < 70) {
+                System.out.println("Good");
+            } else if (note >= 50 && note < 60) {
+                System.out.println("Passed");
+            } else {
+                System.out.println("Failed");
+            }
+
+        } else {
+            System.out.println("Invalid note");
+        }
     }
 
 
