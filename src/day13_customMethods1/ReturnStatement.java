@@ -1,0 +1,35 @@
+package day13_customMethods1;
+
+public class ReturnStatement {
+    public static void main(String[] args) {
+        eligible(0);
+
+        multiplication(5, 9);
+
+        int r=multiplication(5,9);
+        System.out.println(r);
+
+    }
+
+    public static void eligible(int age) {
+        if ((age <= 0 || age > 150)) {
+            System.err.println("Invalid age");
+            return;
+        }
+        if (age >= 21) {
+            System.out.println("You are eligible to buy alcohol");
+        } else {
+            System.err.println("You are not eligible to buy alcohol");
+        }
+
+    }
+
+    public static int multiplication(int n1, int n2) {
+        int result = n1 * n2;
+        return result;
+
+
+    }
+
+
+}
