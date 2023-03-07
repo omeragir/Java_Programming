@@ -28,4 +28,13 @@ public static boolean isEven(int num){
         return !isOdd((num));
 }
 
+public static int max(int num1,int num2){
+        //return num2>num1?num2:num1;
+        if(num1>num2){
+            return num1;
+        }else {
+            return num2;
+        }
+}
+
 }
