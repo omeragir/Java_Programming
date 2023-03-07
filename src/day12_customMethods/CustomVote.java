@@ -1,6 +1,6 @@
 package day12_customMethods;
 
-public class Vote {
+public class CustomVote {
     public static void main(String[] args) {
         eligibleToVote(25, false);
 
