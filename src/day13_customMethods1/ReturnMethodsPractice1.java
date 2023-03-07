@@ -2,7 +2,7 @@ package day13_customMethods1;
 
 import java.util.Scanner;
 
-public class ReturnMethodsPractice {
+public class ReturnMethodsPractice1 {
     public static void main(String[] args) {
 
      char grade=new Scanner(System.in).next().charAt(0);
