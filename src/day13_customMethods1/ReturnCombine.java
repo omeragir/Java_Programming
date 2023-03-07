@@ -2,8 +2,8 @@ package day13_customMethods1;
 
 public class ReturnCombine {
     public static void main(String[] args) {
-        combine("one", "two");
-        System.out.println(combine("one", "two"));
+        String word3=combine("one", "eight" );
+        System.out.println(word3);
 
 
     }
