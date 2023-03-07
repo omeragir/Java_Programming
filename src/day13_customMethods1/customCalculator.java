@@ -3,26 +3,25 @@ package day13_customMethods1;
 public class customCalculator {
     public static void main(String[] args) {
 
-        calculator(50,6,'#');
-
+        calculator(50, 6, '*');
 
 
     }
-    public static void calculator(int num1,int num2,char character ){
-       int result=0;
-        if(character=='+'){
-            result=num1+num2;
-        } else if (character=='-') {
-            result=num1-num2;
-        } else if (character=='*') {
-            result=num1*num2;
-        } else if (character=='/') {
-            result=num1/num2;
-        }else {
+
+    public static void calculator(double num1, double num2, char character) {
+
+        if (character == '+') {
+            System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+        } else if (character == '-') {
+            System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
+        } else if (character == '*') {
+            System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+        } else if (character == '/') {
+            System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+        } else {
             System.err.println("Invalid character");
 
         }
-        System.out.println("result = " + result);
 
     }
 }
