@@ -37,4 +37,10 @@ public static int max(int num1,int num2){
         }
 }
 
+public static int min(int nr1,int nr2){
+        return (nr1<nr2)?nr1:nr2;
+}
+
+
+
 }
