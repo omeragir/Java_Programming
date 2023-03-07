@@ -8,14 +8,18 @@ public class ageGroup {
     }
 
     public static void agelist(int age) {
-        if (age < 21) {
-            System.out.println("Teenager");
-        } else if (age >= 21 && age < 55) {
-            System.out.println("Adult");
-        } else {
-            System.out.println("Senior");
-        }
+       if(age>0 &&age<=150){
+           if (age < 21) {
+               System.out.println("Teenager");
+           } else if (age >= 21 && age < 55) {
+               System.out.println("Adult");
+           } else {
+               System.out.println("Senior");
+           }
 
+       }else {
+           System.out.println("invalid age");
+       }
 
     }
 
