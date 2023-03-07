@@ -2,13 +2,20 @@ package day13_customMethods1;
 
 public class ReturnStatement {
     public static void main(String[] args) {
-        eligible(0);
+        eligible(25);
+        System.out.println("--------------------------------------------");
 
-        multiplication(5, 9);
 
-        int r=multiplication(5,9);
-        System.out.println(r);
+        System.out.println("Test started");
+        boolean exit = true;
+        if(exit){
+            return;
 
+
+        }
+
+        System.out.println("Test1 completed");
+        System.out.println("Test2 started");
     }
 
     public static void eligible(int age) {
