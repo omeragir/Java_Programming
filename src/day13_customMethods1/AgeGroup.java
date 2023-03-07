@@ -1,6 +1,6 @@
 package day13_customMethods1;
 
-public class ageGroup {
+public class AgeGroup {
     public static void main(String[] args) {
 
         agelist(25);
@@ -25,7 +25,7 @@ public class ageGroup {
 
 }
 /*
-Create a method named ageGroup that can print the age group of the person
+Create a method named AgeGroup that can print the age group of the person
 
 	        age groups are:
 	                Teenager (< 21)

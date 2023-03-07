@@ -1,6 +1,6 @@
 package day13_customMethods1;
 
-public class customCalculator {
+public class CustomCalculator {
     public static void main(String[] args) {
 
         calculator(50, 6, '*');
