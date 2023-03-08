@@ -1,6 +1,6 @@
-package day14_forloop;
+package day14_forLoop;
 
-public class MethodOverloadingIntro {
+public class MethodOverLoadingIntro {
     public static void main(String[] args) {
         methodA(5,6);
 

@@ -1,4 +1,4 @@
-package day14_forloop;
+package day14_forLoop;
 
 public class WarmUpTask {
     public static void main(String[] args) {
