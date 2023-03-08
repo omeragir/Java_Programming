@@ -1,7 +1,13 @@
-package day14_loop;
+package day14_forloop;
 
 public class WarmUpTask {
     public static void main(String[] args) {
+
+        System.out.println(sumOf2IntegerNumbers(10,20));
+
+        System.out.println(sumOf3IntegerNumber(10,20,30));
+
+        System.out.println(sumOf4IntegerNumber(10,20,30,40));
 
     }
 
