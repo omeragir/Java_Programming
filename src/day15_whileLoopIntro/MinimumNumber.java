@@ -17,7 +17,7 @@ public class MinimumNumber {
             }
 
         }
-        System.out.println("min = " + min);
+        System.out.println("min number is = " + min);
 
     }
 
