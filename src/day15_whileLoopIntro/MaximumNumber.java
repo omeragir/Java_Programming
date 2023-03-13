@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MaximumNumber {
     public static void main(String[] args) {
-        int max=0;
+        int max=-2147483648;
 
       /*  Scanner input=new Scanner(System.in);
         System.out.println("Enter your five number : ");
