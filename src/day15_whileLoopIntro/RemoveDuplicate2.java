@@ -19,6 +19,7 @@ public class RemoveDuplicate2 {
 
     }
 }
+
 /*
 Write a program that can remove the duplicated characters from the a string
 
