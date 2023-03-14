@@ -19,7 +19,7 @@ public class CydeoLogIn {
                 if(i!=2){
                     System.err.println("Incorrect user name or password,please re-enter");
                 }else{
-                    System.err.println("This is your last attempt,please re-enter user name and password");
+                    System.err.println("This is your last chance,please re-enter user name and password");
                 }
 
 
