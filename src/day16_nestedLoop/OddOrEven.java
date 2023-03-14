@@ -6,8 +6,8 @@ public class OddOrEven {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-
-        while (true) {
+        String answer = "yes";
+        while (answer.equals("yes")) {
             System.out.println("Enter a number");
             int num = input.nextInt();
 
@@ -17,7 +17,7 @@ public class OddOrEven {
                 System.out.println(num + " Odd number");
             }
             System.out.println("Would you like to enter another number? Yes/No");
-            String answer = input.next().toLowerCase();
+             answer = input.next().toLowerCase();
 
             while (!(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no"))) ;
             System.out.println("Invalid Entry! Would you like to enter another number? Yes/No");
