@@ -15,7 +15,7 @@ public class DoWhileLoop {
         System.out.println("-----------------------------------");
 
         do {
-            System.out.println("Hello Cydeo-- Do--While Loop");
+            System.out.println("Hello Cydeo-- Dog--While Loop");
         }while (condition);
 
 

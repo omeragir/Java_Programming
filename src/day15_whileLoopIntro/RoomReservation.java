@@ -8,7 +8,7 @@ public class RoomReservation {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Do you want to reserve a room? Yes/No");
+        System.out.println("Dog you want to reserve a room? Yes/No");
         String room = input.next().toLowerCase();
 
         while (!(room.equals("no") || room.equals("yes"))) {
