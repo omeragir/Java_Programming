@@ -26,11 +26,18 @@ public class BankAccount {
     public void deposit(double amount){
         if(amount<1){
             System.out.println("Insufficient amount : "+amount);
+            return;
         }
 
         balance+=amount;
     }
     public void withDraw(double amount){
+        if(amount>balance){
+            System.out.println("Insufficient withdraw : "+amount);
+            return;
+
+        }
+
         balance-=amount;
 
     }
