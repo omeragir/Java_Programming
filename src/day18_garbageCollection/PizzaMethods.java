@@ -32,8 +32,13 @@ public class PizzaMethods {
         return  totalPrice;
     }
 
+    public void setInfo(char size, int numberOfCheeseTopping, int numberOfPepperoniTopping) {
+        this.size = size;
+        this.numberOfCheeseTopping = numberOfCheeseTopping;
+        this.numberOfPepperoniTopping = numberOfPepperoniTopping;
+    }
 
-/*
+
     public String toString() {
         return "PizzaMethods{" +
                 "size=" + size +
@@ -43,7 +48,7 @@ public class PizzaMethods {
                 '}';
     }
 
-    */
+
 
 
 }
