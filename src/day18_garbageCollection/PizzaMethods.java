@@ -32,7 +32,14 @@ public class PizzaMethods {
         return  totalPrice;
     }
 
-
+    public String toString() {
+        return "PizzaMethods{" +
+                "size=" + size +
+                ", numberOfCheeseTopping=" + numberOfCheeseTopping +
+                ", numberOfPepperoniTopping=" + numberOfPepperoniTopping +
+                ", total price =" + calcCost() +
+                '}';
+    }
 }
 /*
 1. Create a class named Pizza:
