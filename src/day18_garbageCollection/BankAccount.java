@@ -22,7 +22,12 @@ public class BankAccount {
     public void checkBalance(){
         System.out.println("Your available balance is : "+balance);}
 
+
     public void deposit(double amount){
+        if(amount<1){
+            System.out.println("Insufficient amount : "+amount);
+        }
+
         balance+=amount;
     }
     public void withDraw(double amount){
