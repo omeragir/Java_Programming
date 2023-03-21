@@ -10,7 +10,7 @@ public class DigitLetterSpecialChar {
         if (str.length() >= 1) {
             char first = str.charAt(0);
 
-            if (first >= '0' && first <= 9) {
+            if (first >= '0' && first <= '9') {
                 System.out.println("first character is digit");
             } else if (first >= 'A' && first <= 'Z') {
                 System.out.println("first character is uppercase letter");
