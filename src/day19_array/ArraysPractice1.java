@@ -22,9 +22,13 @@ public class ArraysPractice1 {
 
         }
 
+        System.out.println("----------------------------------");
 
 
 
 
-    }
+
+
+
+        }
 }
