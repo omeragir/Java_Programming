@@ -18,7 +18,7 @@ public class Login {
         String password = input.nextLine();
         input.close();
 
-        if (username.equals(correctPassWord) && password.equals(correctPassWord)) {
+        if (username.equals(correctUserName) && password.equals(correctPassWord)) {
             System.out.println("You are now logged in");
 
         } else {
