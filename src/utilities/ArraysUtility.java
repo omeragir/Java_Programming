@@ -99,16 +99,7 @@ public class ArraysUtility {
         return reverse;
     }
 
-    public static String[] reverse(String []array){
-        String[] reverse = new String[array.length];
 
-        for (int i = array.length - 1, j = 0; i >= 0; i--, j++) {
-            reverse[j] = array[i];
-
-
-        }
-        return reverse;
-    }
 
     
 }
