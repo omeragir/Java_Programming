@@ -1,5 +1,7 @@
 package day20_forEach;
 
+import utilities.ArraysUtility;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
@@ -20,12 +22,16 @@ public class StringMethods {
         System.out.println(Arrays.toString(words));
         System.out.println("------------------------------------");
 
-        String sentence="I love Java";
+        String sentence = "Today is a great day";
+        String[] arr = ArraysUtility.reverse(sentence.split(" "));
+        System.out.println(Arrays.toString(arr));
 
+        String reverseSentence = "";
 
+        for (int i = 0; i < arr.length; i++) {
+            reverseSentence += arr[i] + " ";
 
-
-
-
+        }
+        System.out.println(reverseSentence);
     }
 }
