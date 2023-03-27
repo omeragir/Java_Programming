@@ -14,5 +14,7 @@ public class TestCarpet {
 
         carpet2.setInfo(12, 9, 20, false);
         System.out.println(carpet2);
+
+
     }
 }
