@@ -141,6 +141,11 @@ public class ArraysUtility {
         new_array[new_array.length-1] = element;
         return new_array;
     }
+    /*
+    public static boolean contains(int[]array,int element){
+
+    }
+    */
 
 
 
