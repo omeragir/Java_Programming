@@ -44,6 +44,16 @@ public class MultiDimensionalArrayPractice {
                 System.out.println(eachStudent);
             }
         }
+        System.out.println("------------------------------------------------");
+
+        System.out.println(groups);
+        System.out.println(Arrays.toString(groups));//for single dimensional arrays only
+
+        System.out.println("------------------------------------------------");
+
+        System.out.println(Arrays.deepToString(groups));//deepToString()=> for multi dimensional arrays only
+        System.out.println(Arrays.toString(group1));
+
 
 
     }
