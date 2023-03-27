@@ -7,15 +7,36 @@ public class ArrayExample2 {
         String[][] items = {
                 {"Apple", "Banana", "Grape", "Avocado"},
                 {"Paper Towels", "Toilet Papers", "Tissues", "Diapers"},
-                {"Coke", "Fanta", "Arizona Tea", "Pepsi", "Water"}
-        };
+                {"Coke", "Fanta", "Arizona Tea", "Pepsi", "Water"}};
 
-        for (int i = 0; i < items.length; i++) {
-            String[] es = items[i];
-            System.out.println(Arrays.toString(es));
+        System.out.println("-----------------------1------------------");
+
+        for (String[] item : items) {
+            System.out.println(Arrays.toString(item).replace("[", "").replace("]", "").replace(", ", "\t"));
         }
 
+        System.out.println("---------------------2--------------------");
 
+        for (String[] item : items) {
+            String[] reverse = new String[item.length];
+            int k = 0;
+            for (int i = item.length - 1; i >= 0; i--) {
+                reverse[k++] = item[i];
+
+            }
+            System.out.println(Arrays.toString(reverse).replace("[", "").replace(", ", "\t").replace("]", ""));
+        }
+
+        System.out.println("--------------------3------------------");
+
+        String[] reverse2 = new String[items.length];
+        int j = 0;
+        for (int i = items.length - 1; i >= 0; i--, j++) {
+            reverse2[j] = Arrays.toString(items[i]);
+        }
+        for (String s : reverse2) {
+            System.out.println(s.replace("[", "").replace(", ", "\t").replace("]", ""));
+        }
 
 
     }
