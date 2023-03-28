@@ -23,10 +23,39 @@ public class WrapperClassesMethods {
 
         String x = "true";
         boolean x1 = Boolean.parseBoolean(x);
-        Boolean x2=Boolean.valueOf(x);
+        Boolean x2 = Boolean.valueOf(x);
 
         System.out.println(x1);
         System.out.println(x2);
+        System.out.println("---------------------------------");
+
+        char ch = '$';
+
+        boolean isDigit = Character.isDigit(ch);
+        boolean isLetter = Character.isLetter(ch);
+        boolean isLowerCase = Character.isLowerCase(ch);
+        boolean isUpperCaseLetter=Character.isUpperCase(ch);
+        boolean isSpecial=!Character.isLetterOrDigit(ch);//special character
+
+        System.out.println("isDigit = " + isDigit);
+        System.out.println("isLetter = " + isLetter);
+        System.out.println("isLowerCase = " + isLowerCase);
+        System.out.println("isUpperCaseLetter = " + isUpperCaseLetter);
+        System.out.println("isSpecial = " + isSpecial);
+        System.out.println("---------------------------------");
+
+        String string="a1b2c3d4e5";
+        int sum=0;
+        for (char each : string.toCharArray()) {
+            if(Character.isDigit(each)){
+                sum+=Integer.parseInt(""+each);
+            }
+        }
+        System.out.println(sum);
+
+
+
+
 
 
     }
