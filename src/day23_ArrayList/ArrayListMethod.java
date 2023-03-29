@@ -108,5 +108,17 @@ public class ArrayListMethod {
         System.out.println(n1.isEmpty());
         System.out.println("------------------------------------");
 
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
