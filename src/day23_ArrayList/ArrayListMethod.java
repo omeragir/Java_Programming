@@ -62,5 +62,51 @@ public class ArrayListMethod {
         names.add("Emily");
         System.out.println(names.indexOf("Emily"));//index of method first matching give
         System.out.println(names.lastIndexOf("Ali"));//last index of method
+
+        System.out.println("-----------------------------------");
+
+        boolean hasMuhtar = names.contains("Muhtar");  // contains method
+        boolean hasAli = names.contains("Ali");
+        System.out.println("hasAli = " + hasAli);
+        System.out.println("hasMuhtar = " + hasMuhtar);
+
+        System.out.println("-----------------------------------");
+
+        ArrayList<Integer> list1 = new ArrayList<>();
+        ArrayList<Integer> list2 = list1;
+        list1.add(10);
+        System.out.println(list1);
+        System.out.println(list2);
+        System.out.println(list1 == list2);
+
+        ArrayList<Integer> l1 = new ArrayList<>();
+        l1.add(10);
+
+        ArrayList<Integer> l2 = new ArrayList<>();
+        l2.add(10);
+
+        System.out.println(l1 == l2);// two different heap memory
+
+        System.out.println(l1.equals(l2));// equals method
+        System.out.println("-----------------------");
+        ArrayList<Integer> n1 = new ArrayList<>();
+        n1.add(10);
+        n1.add(20);
+        n1.add(30);
+
+
+        ArrayList<Integer> n2 = new ArrayList<>();
+        n1.add(30);
+        n1.add(20);
+        n1.add(10);
+
+        System.out.println(n1.equals(n2));//equals method
+        System.out.println("------------------------------------");
+
+        System.out.println(n1.isEmpty());//isEmpty method
+        n1.clear();
+        System.out.println(n1.isEmpty());
+        System.out.println("------------------------------------");
+
     }
 }
