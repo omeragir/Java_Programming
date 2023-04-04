@@ -25,10 +25,10 @@ public class GarbageCollection {
         System.out.println("---------------------------");
 
         Dog dog1=new Dog();
-        dog1.setInfo("Loki","Chow",'M',4,"White");
+        dog1.setInfo("Loki","Chow",'M',4,"White", "Gold");
 
         Dog dog2=new Dog();
-        dog2.setInfo("Chuck","Bulldog",'F',5,"Black");
+        dog2.setInfo("Chuck","Bulldog",'F',5,"Black", "Gold");
 
 
         //dog1=null;

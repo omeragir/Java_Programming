@@ -22,7 +22,7 @@ public class TestDogObject {
         dog1.color = "Orange";
 
         Dog dog3=new Dog();
-        dog3.setInfo("Loki","Chow",'M',4,"White");
+        dog3.setInfo("Loki","Chow",'M',4,"White", "Gold");
 
 
         System.out.println(dog1);

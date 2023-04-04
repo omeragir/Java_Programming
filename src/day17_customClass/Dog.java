@@ -3,20 +3,19 @@ package day17_customClass;
 public class Dog {
     public String name;
     public String breed;
-    public String size;
     public char gender;
     public int age;
+    public String size;
     public String color;
 
-
-    public void setInfo(String name,String breed,char gender,int age,String color){
-        this.name=name;
-        this.breed=breed;
-        this.color=color;
-        this.age=age;
-        this.gender=gender;
+    public void setInfo(String name, String breed, char gender, int age, String size, String color) {
+        this.name = name;
+        this.breed = breed;
+        this.gender = gender;
+        this.age = age;
+        this.size = size;
+        this.color = color;
     }
-
 
     public void eat(){
         System.out.println(name+" is eating");
