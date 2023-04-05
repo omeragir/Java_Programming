@@ -35,7 +35,7 @@ public class IPhone {
 
  */
 
-    public void printPhoneInfo(){
+    public void printPhoneInfo(){//instance method accepts both static and instance variable
         System.out.println("Brand: "+brand);
         System.out.println("Color: "+color);
         System.out.println("Model: "+model);
