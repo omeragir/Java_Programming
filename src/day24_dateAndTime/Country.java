@@ -15,10 +15,6 @@ public class Country {
     }
 }
 /*
-Write a program that can remove string elements from an arraylist if the first and last characters of the string are same
-	ex:
-		list = {"Anna", "Canada", "Bob", "David", "Lan", "Abida", "Ebrahim", "Farida"}
-
-	output:
-		[Canada, Lan, Ebrahim, Farida]
+Create an ArrayList of string called country names,
+write a program that can remove all the country names that have length of 10 or greater
  */
