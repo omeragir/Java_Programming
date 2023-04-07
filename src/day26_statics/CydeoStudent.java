@@ -29,7 +29,7 @@ public class CydeoStudent {
     public static void printSchoolName(){
         System.out.println("School name is "+schoolName);
     }
-    public static void printProgLanguage(){
+    public static void printProLanguage(){
         System.out.println("Programming language is  "+magicWord);
     }
 
@@ -45,3 +45,19 @@ public class CydeoStudent {
                 '}';
     }
 }
+/*
+1. Create a class named CydeoStudent:
+
+				Attributes:
+					instances: name, age, gender, id, grade, batchNumber, groupNumber
+					statics: schoolName, magicWord
+
+				Add a constructor that can set All the fields (instances)
+
+				Actions:
+					study()
+					attendClass()
+					printSchoolName(): displays the school name
+					printProLanguage(): displays the name of programming language
+					toString()
+ */
