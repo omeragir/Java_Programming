@@ -10,7 +10,7 @@ public class TestCircle{
         System.out.println(circle1);
         System.out.println(circle2);
 
-
+        System.out.println(Circle.pi);
 
 
     }
