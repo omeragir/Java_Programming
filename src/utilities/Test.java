@@ -13,7 +13,7 @@ public class Test {
         Data.method3();
         Data.method4();
 
-        Data obj=new Data();
+        Data obj = new Data();
         System.out.println(obj.a);
         System.out.println(obj.b);
         System.out.println(obj.c);
@@ -25,6 +25,12 @@ public class Test {
 
         System.out.println(AccessModifier.publicData);
 
+        // System.out.println(AccessModifier.protectedData); not always accessible
 
+        // System.out.println(AccessModifier.defaultData); never be accessible
+
+        // System.out.println(AccessModifier.privateData); not accessible
+
+        // new AccessModifier();
     }
 }
