@@ -6,7 +6,7 @@ public class ReturnStatement {
         System.out.println("--------------------------------------------");
 
 
-        System.out.println("Test started");
+        System.out.println("TestStudentObject started");
         boolean exit = true;
         if(exit){
             return;

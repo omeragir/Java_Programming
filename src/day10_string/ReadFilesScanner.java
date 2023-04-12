@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class ReadFilesScanner {
     public static void main(String[] args) throws IOException {
-        Scanner scan = new Scanner(Path.of("src/day10_string/Test.txt"));
+        Scanner scan = new Scanner(Path.of("src/day10_string/TestStudentObject.txt"));
 
         /*
         System.out.println( scan.nextLine() );

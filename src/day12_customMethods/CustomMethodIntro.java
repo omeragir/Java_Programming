@@ -3,11 +3,11 @@ package day12_customMethods;
 public class CustomMethodIntro {
     public static void main(String[] args) {
 
-        System.out.println("Test started");
+        System.out.println("TestStudentObject started");
 
         greetings();
 
-        System.out.println("Test finished");
+        System.out.println("TestStudentObject finished");
         System.out.println("---------------------------------------------");
         displayMessage();
 
