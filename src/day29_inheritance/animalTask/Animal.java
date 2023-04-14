@@ -31,7 +31,7 @@ public class Animal {
     }
 
     public String toString() {
-        return "Animal{" +
+        return getClass().getSimpleName()+"{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
