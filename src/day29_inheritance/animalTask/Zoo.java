@@ -43,6 +43,15 @@ public class Zoo {
         //dog.hunt();
         System.out.println("-----------------");
 
+       // System.out.println(dog.name);
+
+        System.out.println(dog.getName());
+        System.out.println(dog.getColor());
+
+        dog.setAge(8);
+
+        System.out.println(dog);
+
 
     }
 
