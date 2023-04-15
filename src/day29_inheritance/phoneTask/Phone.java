@@ -9,11 +9,11 @@ public class Phone {
     private String color;
 
     public void setInfo(String brand, String model, char size, double price, String color) {
-        this.brand = brand;
-        this.model = model;
-        this.size = size;
-        this.price = price;
-        this.color = color;
+       setBrand(brand);
+       setModel(model);
+       setSize(size);
+       setPrice(price);
+       setColor(color);
     }
 
     public String getBrand() {
