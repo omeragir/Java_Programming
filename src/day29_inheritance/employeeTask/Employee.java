@@ -89,6 +89,9 @@ public class Employee {
         }
         this.salary = salary;
     }
+    public void work(){
+        System.out.println(jobTitle+" "+name+" is working");
+    }
 
     public String toString() {
         return getClass().getSimpleName()+"{" +
