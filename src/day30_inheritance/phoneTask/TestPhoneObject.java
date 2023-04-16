@@ -22,5 +22,8 @@ public class TestPhoneObject {
         samsung.freeze();
         nokia.selfDefense();
 
+        System.out.println(nokia);
+        System.out.println(iPhone);
+
     }
 }
