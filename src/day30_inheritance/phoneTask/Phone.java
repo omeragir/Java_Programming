@@ -8,7 +8,7 @@ public class Phone {
     private String brand, model, size, color;
     private double price;
 
-    public void setInfo(String brand, String model, String size, double price, String color) {
+    public Phone(String brand, String model, String size, double price, String color) {
         setBrand(brand);
         setModel(model);
         setSize(size);
@@ -78,6 +78,15 @@ public class Phone {
         this.color = color;
     }
 
+    public void call(long phoneNumber){
+        System.out.println(getBrand()+" is calling :"+phoneNumber);
+    }
+    public void text(long phoneNumber){
+        System.out.println(getBrand()+" is texting :"+phoneNumber);
+    }
+
+
+
     public String toString() {
         return getClass().getSimpleName() + "{" +
                 "brand='" + brand + '\'' +
@@ -106,7 +115,7 @@ public class Phone {
 					text(long phoneNumber)
 					toString()
 
-	2. Create the following sub classes of Phone:
+	2. Create the following subclasses of Phone:
 
 			2.1 Iphone:
 					Extra methods:
