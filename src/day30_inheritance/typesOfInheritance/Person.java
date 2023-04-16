@@ -52,6 +52,13 @@ public class Person {
         this.dateOfBirth = dateOfBirth;
     }
 
+    public void eat(String food){
+        System.out.println(name+" is eating "+food);
+    }
+    public  void drink(String drink){
+        System.out.println(name+" is drinking "+drink);
+    }
+
     public String toString() {
         return getClass().getSimpleName()+"{" +
                 "name='" + name + '\'' +
