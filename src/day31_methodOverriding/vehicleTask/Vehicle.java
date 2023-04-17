@@ -79,14 +79,7 @@ public class Vehicle {
 
 
 
-	4. Create a sub class of Vehicle brandd Boat
 
-			Extra methods:
-				sail()
 
-	5. Create a sub class of Vehicle brandd AirPlane
-
-			Extra methods:
-				fly()
 
  */
