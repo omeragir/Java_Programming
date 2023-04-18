@@ -37,4 +37,14 @@ public class Square extends Shape{
 
         System.out.println("\t* * * * * *");
     }
+
+    @Override
+    public String toString() {
+        return  getClass().getSimpleName()+"{" +
+                "name='" + getName() + '\'' +
+                "side='" + side + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 }
