@@ -23,7 +23,7 @@ public class Shape {
         return 0;
     }
     public void draw(){
-        System.out.println("Drawing a shape");
+        System.out.println("Drawing a "+getClass().getSimpleName());
     }
 
     public String toString() {
