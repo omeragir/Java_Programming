@@ -4,8 +4,8 @@ public class Shape {
 
     private String name;
 
-    public Shape(String name) {
-        setName(name);
+    public Shape() {
+        setName(getClass().getSimpleName());
     }
 
     public String getName() {
