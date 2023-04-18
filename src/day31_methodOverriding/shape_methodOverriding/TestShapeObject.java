@@ -12,6 +12,14 @@ public class TestShapeObject {
 
         Circle circle=new Circle(3.5);
         System.out.println(circle);
+        System.out.println("----------------------------");
+
+        Rectangle rectangle=new Rectangle(3,6);
+
+        System.out.println(rectangle);
+        rectangle.draw();
+
+        System.out.println("----------------------------");
 
     }
 }
