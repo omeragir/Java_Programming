@@ -7,8 +7,8 @@ public class Employee extends Person {
     private String jobTitle;
     private double salary;
 
-    public Employee(String name, char gender, int age, LocalDate dateOfBirth, String jobTitle, double salary) {
-        super(name, gender, age, dateOfBirth);
+    public Employee(String name, char gender, LocalDate dateOfBirth, String jobTitle, double salary) {
+        super(name, gender, dateOfBirth);
         setJobTitle(jobTitle);
         setSalary(salary);
     }

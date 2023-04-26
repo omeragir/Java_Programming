@@ -6,8 +6,8 @@ public class Student extends Person{
 
     private char grade;
 
-    public Student(String name, char gender, int age, LocalDate dateOfBirth, char grade) {
-        super(name, gender, age, dateOfBirth);
+    public Student(String name, char gender,  LocalDate dateOfBirth, char grade) {
+        super(name, gender, dateOfBirth);
         this.grade = grade;
     }
 
