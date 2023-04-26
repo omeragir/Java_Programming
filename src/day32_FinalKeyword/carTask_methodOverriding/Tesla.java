@@ -57,8 +57,8 @@ public class Tesla extends Car{
       if (price<50_000){
           System.err.println("Invalid price "+price);
           System.exit(1);
-
       }
+      super.setPrice(price);
     }
 
 
