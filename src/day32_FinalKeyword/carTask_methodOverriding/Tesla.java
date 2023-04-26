@@ -17,7 +17,7 @@ public class Tesla extends Car{
         System.out.println("Say \"Start\"");
     }
 
-    public void autopilot(){
+    public final void autopilot(){
         System.out.println("Tesla has auto pilot system");
     }
 
