@@ -6,10 +6,7 @@ public class Toyota extends Car{
         super(model, color, year, price);
     }
 
-    @Override
-    public void start() {
-        super.start();
-    }
+
 }
 /*
   1. Toyota
