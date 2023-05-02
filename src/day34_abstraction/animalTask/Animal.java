@@ -71,6 +71,7 @@ public abstract class Animal {
         System.out.println(name + " is sleeping");
     }
 
+
     public String toString() {
         return getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
