@@ -1,6 +1,10 @@
 package day34_abstraction.carTask;
 
-public class Tesla extends Car{
+import day35_polymorphism.transportationTask.Electric;
+
+import java.sql.SQLOutput;
+
+public class Tesla extends Car implements Electric {
 
 
     public Tesla(String model, String color, int year, double price) {
@@ -13,5 +17,10 @@ public class Tesla extends Car{
     }
     public void autoPilot(){
         System.out.println(getMake()+" "+getModel()+" has auto pilot feature");
+    }
+
+    @Override
+    public void charge() {
+        System.out.println("Possible");
     }
 }
