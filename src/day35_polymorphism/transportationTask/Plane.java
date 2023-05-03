@@ -13,6 +13,10 @@ public abstract class Plane extends Transportation implements Flyable {
         System.out.println("Plane "+getMake()+" "+getModel()+" is landing" );
     }
 
+    @Override
+    public void fly() {
+        System.out.println(getMake()+" "+getModel()+" is flying");
+    }
 }
 /*
 Create an abstract subclass of Transportation named Plane that implements Flyable
