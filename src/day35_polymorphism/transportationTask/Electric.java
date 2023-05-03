@@ -1,6 +1,6 @@
 package day35_polymorphism.transportationTask;
 
-public interface Electric extends AutoPark,AutoPilot {
+public interface Electric{
 
     void charge();
 
