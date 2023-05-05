@@ -6,6 +6,9 @@ import day29_inheritance.animalTask.Dog;
 import day30_inheritance.phoneTask.IPhone;
 import day30_inheritance.phoneTask.Nokia;
 import day30_inheritance.phoneTask.Phone;
+import day33_abstraction.employeeTask.Developers;
+import day33_abstraction.employeeTask.Employee;
+import day33_abstraction.employeeTask.Tester;
 
 public class ReferenceTypeCastings {
     public static void main(String[] args) {
@@ -36,11 +39,17 @@ public class ReferenceTypeCastings {
         phone.text(123456);
         ( (Nokia)phone ).selfDefense();
 
-        ( (IPhone)phone ).faceTime(123456);//Nokia can not be converted to Iphone,because there is not  relationship between Nokia and IPhone
+        //( (IPhone)phone ).faceTime(123456);//Nokia can not be converted to Iphone,because there is not  relationship between Nokia and IPhone
 
         ((Nokia) phone).selfDefense();
         System.out.println(" ----------------------------------");
 
+        Employee employee=new Developers("Daniel",25,'M',"D25","Java Developers",95000,"Java");
+        employee.work();
+
+        System.out.println(((Developers) employee).getProgrammingLanguage());
+
+       // Tester tester=(Tester)employee;
 
     }
 }
