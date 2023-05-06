@@ -1,5 +1,7 @@
 package day36_polymorphismContinue;
 
+import day30_inheritance.phoneTask.IPhone;
+
 public class TestEqualMethod {
 
     public static void main(String[] args) {
@@ -16,6 +18,13 @@ public class TestEqualMethod {
 
         System.out.println(circle1.equals(circle2));//true
         System.out.println(circle1.equals(circle3));//false
+
+        System.out.println("-------------------------------");
+
+        IPhone iPhone1=new IPhone("IPhone12","Medium",900,"Black");
+        IPhone iPhone2=new IPhone("IPhone12","Medium",900,"Black");
+
+        System.out.println(iPhone1.equals(iPhone2));
 
 
     }
