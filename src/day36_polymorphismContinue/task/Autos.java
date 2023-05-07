@@ -56,12 +56,14 @@ public class Autos {
         System.out.println("-----------------------------");
 
         ArrayList<Tesla>teslaCar=new ArrayList<>();
+
         for (Car each : cars) {
-            if (each.getMake().contains("Tesla")){
+            if (each instanceof Tesla){
                 teslaCar.add((Tesla) each);
 
             }
         }
+
         System.out.println(teslaCar);
     }
 
