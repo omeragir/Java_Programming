@@ -1,6 +1,6 @@
 package day34_abstraction.animalTask;
 
-public interface Playable {
+public interface   Playable {
 
     public static final boolean isFriendly = true;//  static&final
     // default give
