@@ -75,8 +75,8 @@ public class Pizza {
             System.exit(1);
         }
         if (size == ((Pizza) obj).size) {
-            if (numberOfPepperoniTopping == ((Pizza) obj).numberOfPepperoniTopping) {
-                if (numberOfCheeseTopping == ((Pizza) obj).numberOfCheeseTopping) {
+            if (numberOfPepperoniTopping == ((Pizza) obj).getNumberOfPepperoniTopping()) {
+                if (numberOfCheeseTopping == ((Pizza) obj).getNumberOfCheeseTopping()) {
                     return true;
                 }
             }
