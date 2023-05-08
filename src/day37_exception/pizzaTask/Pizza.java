@@ -74,11 +74,13 @@ public class Pizza {
             System.err.println("Invalid object: " + obj);
             System.exit(1);
         }
-        if (size == ((Pizza) obj).size) {
-            if (numberOfPepperoniTopping == ((Pizza) obj).getNumberOfPepperoniTopping()) {
-                if (numberOfCheeseTopping == ((Pizza) obj).getNumberOfCheeseTopping()) {
+
+        Pizza pizza= (Pizza) obj;
+        if (size == pizza.getSize()) {
+            if (numberOfPepperoniTopping == pizza.getNumberOfPepperoniTopping()) {
+
                     return true;
-                }
+
             }
         }
         return false;
