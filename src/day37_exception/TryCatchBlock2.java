@@ -1,5 +1,8 @@
 package day37_exception;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class TryCatchBlock2 {
     public static void main(String[] args) {
 
@@ -26,6 +29,17 @@ public class TryCatchBlock2 {
            // System.out.println(e.getMessage());
         }
         System.out.println("Program2 ended");
+
+        System.out.println("------------------------");
+
+        System.out.println("Program3 started");
+
+        try {
+            FileInputStream file=new FileInputStream("File Path");
+        } catch (FileNotFoundException e) {
+           e.printStackTrace();
+        }
+
 
     }
 }
