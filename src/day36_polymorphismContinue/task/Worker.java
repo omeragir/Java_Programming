@@ -53,7 +53,7 @@ public class Worker {
         }
         System.out.println(developers);
         System.out.println("------------------------");
-        double maxTesterSalary = 0;
+        double maxTesterSalary = testers.get(0).getSalary();
         for (Tester each : testers) {
 
             if (each.getSalary() > maxTesterSalary) {
@@ -62,7 +62,7 @@ public class Worker {
         }
         System.out.println("maxTesterSalary = " + maxTesterSalary);
         System.out.println("--------------------------");
-        double maxDeveloperSalary = 0;
+        double maxDeveloperSalary = developers.get(0).getSalary();
         for (Developers each : developers) {
 
             if (each.getSalary() > maxDeveloperSalary) {
