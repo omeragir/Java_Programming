@@ -26,5 +26,7 @@ public class TestPizza {
         //   double area= ((Circle)obj).area();
         //  System.out.println(area);
 
+        System.out.println("Test Completed");
+
     }
 }
