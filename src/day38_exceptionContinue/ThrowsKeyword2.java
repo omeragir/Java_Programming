@@ -2,6 +2,9 @@ package day38_exceptionContinue;
 
 import utilities.Library;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class ThrowsKeyword2 {
     public static void main(String[] args)  {
 
@@ -17,6 +20,20 @@ public class ThrowsKeyword2 {
         System.out.println("Hello");
         pauseFor5Seconds();
         System.out.println("World");
+    }
+    public void method2() throws InterruptedException, FileNotFoundException {
+        System.out.println("First program started");
+
+        Thread.sleep(3000);
+
+        System.out.println("First program ended");
+
+        new FileInputStream("");
+
+        Thread.sleep(5000);
+
+
+
     }
 
 }
