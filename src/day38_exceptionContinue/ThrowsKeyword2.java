@@ -1,10 +1,12 @@
 package day38_exceptionContinue;
 
+import utilities.Library;
+
 public class ThrowsKeyword2 {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args)  {
 
-        method1();
-
+      //  method1();
+        Library.sleep(3.5);
     }
 
     public static void pauseFor5Seconds() throws InterruptedException {
