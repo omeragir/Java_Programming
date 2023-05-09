@@ -13,13 +13,13 @@ public class ThrowKeyword {
 
         if (age < 0 || age > 150) {
             if (age < 0)
-                throw new InputMismatchException("Age of the person should not be negative "+age);
+                throw new InputMismatchException("Age of the person should not be negative " + age);
         } else {
             throw new InputMismatchException("Age of the person can not be greater than 150 :" + age);
         }
-        if (age>=21){
+        if (age >= 21) {
             System.out.println("Eligible");
-        }else {
+        } else {
             System.out.println("Not eligible");
         }
         System.out.println("-------------------------");
@@ -31,6 +31,14 @@ public class ThrowKeyword {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+        System.out.println("-------------------------");
+
+        RuntimeException exception = new RuntimeException();
+        //  throw exception;
+        // throw new RuntimeException();
+
+
+        //throw new Person("Jimmy",32,'M');
 
 
     }
