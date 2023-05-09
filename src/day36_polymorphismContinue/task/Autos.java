@@ -28,9 +28,14 @@ public class Autos {
 
         for (Car each : cars) {
 
-            String info = each.getMake() + " from " + each.getYear();
+            boolean honda = each instanceof Honda && (each.getYear() == 2010 || each.getYear() == 2011);
+            boolean audi = each instanceof Audi && (each.getYear() >= 2015 && each.getYear() <= 2019);
+            boolean tesla = each instanceof Tesla && (each.getYear() == 2015 || each.getYear() == 2016);
 
-            System.out.println(info);
+            if (honda || audi || tesla) {
+                System.out.println(each);
+            }
+
         }
         System.out.println("-------------------------");
 
