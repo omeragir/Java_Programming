@@ -1,8 +1,6 @@
 package day39_collection;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class ListDemo {
 
@@ -28,11 +26,27 @@ public class ListDemo {
 
         linkedList.get(0);
 
+        System.out.println("-------------------------");
 
+        Vector<Integer> vector = new Vector<>();
+        vector.add(100);
+        vector.add(200);
+        vector.add(300);
 
+        vector.get(0);
+        System.out.println("--------------------------");
 
+        Stack<Integer> stack = new Stack<>();
+        stack.add(100);
+        stack.add(200);
+        stack.add(300);
 
+        stack.get(0);
+        System.out.println(stack);
 
+        int lastElement=stack.pop();
+
+        System.out.println(stack);
 
 
     }
