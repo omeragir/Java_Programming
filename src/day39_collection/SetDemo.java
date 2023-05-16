@@ -55,6 +55,11 @@ public class SetDemo {
 
         result.addAll(Arrays.asList(words));
         System.out.println(result);
+
+
+        words = result.toArray(new String[0]);
+        System.out.println("Words Array: "+Arrays.toString(words));
+
         System.out.println("-------------------------");
 /*
         for (String each : result) {
@@ -64,7 +69,11 @@ public class SetDemo {
  */
 
         System.out.println(new ArrayList<>(result).get(1));
+        List<Integer> numbers = new ArrayList<>();
 
+        numbers.addAll(Arrays.asList(10, 10, 10, 10, 20, 20, 20, 40, 40, 50, 60, 70, 20, 20, 70, 70, 80, 80, 90));
+        Set<Integer> num = new TreeSet<>(numbers);
+        System.out.println(num);
 
     }
 }
