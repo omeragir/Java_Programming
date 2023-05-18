@@ -1,7 +1,6 @@
 package day42_mapsContinue;
 
-import java.util.Arrays;
-import java.util.LinkedHashMap;
+
 import java.util.Map;
 import java.util.TreeMap;
 
