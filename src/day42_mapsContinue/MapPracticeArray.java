@@ -72,5 +72,31 @@ public class MapPracticeArray {
 
         System.out.println(Arrays.toString(arrayOfMap));
 
+        arrayOfMap[1].replace("salary", ((Integer)arrayOfMap[1].get("salary"))+10000);
+        arrayOfMap[0].replace("name","Hasan");
+
+
+        System.out.println(Arrays.toString(arrayOfMap));
+
+        System.out.println("--------------------------------------");
+
+        int count=0;
+        for (Map<String, Object> eachMap : arrayOfMap) {
+
+            for (Map.Entry<String, Object> eachEntry : eachMap.entrySet()) {
+
+                if (eachEntry.getKey().equals("salary")){
+
+                    double salary=(Integer) eachEntry.getValue();
+
+                    if (salary<100000){
+                        count++;
+                    }
+                }
+            }
+
+        }
+        System.out.println("count = " + count);
+
     }
 }
